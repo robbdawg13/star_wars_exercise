@@ -1,3 +1,9 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: "roboto", sans-serif;
+}
 main {
   padding-top: 100px;
 }
@@ -13,4 +19,37 @@ main .row {
 }
 img{
 	width:100%;
+}
+header{
+	width:100%;
+	background-color: #eebb44;
+	margin-bottom: 40px;
+	position: fixed;
+	top: 0;
+	left:0;
+}
+header p{
+	display: block;
+	margin: .67em;
+}
+.Title{
+	font-size: 2em;
+	font-weight: bold;
+	margin: .67em .67em .3em .67em;
+}
+.Sub-title{
+	padding-left: .67em;
+}
+.card{
+	border: 1px solid #E5E5E5;
+img{
+	border-style: none;
+}
+}
+.card p{
+	margin-left: .67em;
+}
+.name{
+	font-size: 1.17em ;
+	font-weight: bold;
 }
